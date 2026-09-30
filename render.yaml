@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: prediction-bd
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: UPSTREAM_DNS_FALLBACK
+        value: "true"
+      - key: UPSTREAM_DNS_SERVERS
+        value: "1.1.1.1,8.8.8.8"
+      - key: UPSTREAM_DNS_CACHE_MS
+        value: "60000"
+      - key: UPSTREAM_RETRIES
+        value: "2"
+      - key: UPSTREAM_TIMEOUT_MS
+        value: "10000"

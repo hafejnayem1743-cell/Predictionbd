@@ -1,0 +1,9 @@
+{
+  "name": "PREDICTION BD",
+  "description": "WinGo signal analysis dashboard. Signal outputs are experimental and are not guaranteed predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "version": "1.9.1"
+}

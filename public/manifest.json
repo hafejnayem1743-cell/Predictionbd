@@ -1,0 +1,9 @@
+{
+  "name": "PREDICTION BD",
+  "short_name": "PREDICTION BD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b11",
+  "theme_color": "#10b981",
+  "description": "WinGo round timing and experimental signal analysis. Outcomes are uncertain."
+}
